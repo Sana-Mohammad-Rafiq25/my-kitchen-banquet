@@ -1,0 +1,63 @@
+.navbar-toggler {
+    border: 1px solid #63480F;
+}
+
+.navbar-toggler:hover {
+    background-color: #63480F;
+    color: white;
+}
+
+.carousel-caption {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.carousel-caption button {
+    color: #1C5155;
+    border-color: #1C5155;
+    padding: 15px 30px;
+    background: white;
+}
+
+.carousel-caption button:hover {
+    background-color: #1C5155;
+    color: white;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.card {
+    border: 1px solid rgb(235, 214, 182);
+}
+
+.card:hover {
+    background: #F9F3E7;
+}
+
+.card-body button {
+    border: none;
+    color: #1C5155;
+    background: none;
+}
+
+
+/*Google map css*/
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
